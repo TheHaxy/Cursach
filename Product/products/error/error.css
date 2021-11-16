@@ -1,0 +1,64 @@
+@media screen and (max-width: 1080px){
+	.body .error-block{
+		width: 70%;
+	}
+
+	.error-block .error-name{
+		font-size: 50px;
+	}
+
+	.error-block p{
+		font-size: 30px;
+	}
+
+	.error-block .error-button{
+		padding: 40px 160px;
+		font-size: 26px;
+	}
+
+	.error-block .error-button:hover{
+		padding: 40px 160px;
+		font-size: 26px;
+	}
+}
+
+.body{
+    margin: 0;
+	font-family: "Fira Sans Condensed", sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.error-block{
+	border: 1px solid #ff2400;
+	margin-top: 10%;
+	text-align: center;
+	width: 40%;
+	padding: 5% 10%;
+	background: #e3655f;
+	color: #521a0b;
+
+}
+
+.error-name{
+	text-transform: uppercase;
+}
+
+.error-button{
+	padding: 20px 80px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	background: #f2f3f4;
+	border: 1px solid #ff2400;
+	color: #521a0b;
+	outline: none;
+}
+
+.error-button:hover{
+	padding: 20px 80px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	background: #c0c0c0;
+	border: 1px solid #ff2400;
+	color: #521a0b;
+}

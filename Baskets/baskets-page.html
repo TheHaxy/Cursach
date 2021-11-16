@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>TROSHIN STORE - Корзина</title>
+    <link rel="shortcut icon" type="image/png" href="../img/icon1.png">
+    <link rel="stylesheet" type="text/css" href="baskets.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,300&display=swap"
+          rel="stylesheet">
+</head>
+<body class="body">
+<header class="header">
+    <div class="wrap">
+        <a href="../index.html"><img src="../img/logo.png" class="logo" alt="Логотип"></a>
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="menu-li"><a href="baskets-page.html" class="menu-a">Корзина</a></li>
+                <li class="menu-li"><a href="../Product/product-page.html" class="menu-a">Товары</a></li>
+                <li class="menu-li"><a href="../Info/info-page.html" class="menu-a">Инфо</a></li>
+                <li class="menu-li"><a href="../Support/support-page.html" class="menu-a">Поддержка</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<div class="back"></div>
+<main class="main">
+    <section class="payment-section">
+        <p class="payment-text" id="payment-value">Общая стоимость заказа: <span style="font-size: 20px; margin-left: 10px" data-summary></span></p>
+        <a class="payment-link" href="../Payments-form/payment-form.html"><button class="payment-button">Оплатить</button></a>
+    </section>
+
+    <div class="catalog" data-type="catalog"></div>
+    <img width="86px" class="arrow-button" height="86px" src="../img/arrow.svg">
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p class="inc">© TROSHIN STORE Inc., 2020 г. Все права защищены.</p>
+        <div class="footer-container">
+            <p class="inc">Связь:</p>
+            <ul>
+                <li>
+                    <a href="https://vk.com/givemetwoholidays">
+                        <img src="../img/vk.svg" class="footer-icon" alt="Вконтакте">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/givemetwoholidays/?hl=el">
+                        <img src="../img/inst.svg" class="footer-icon" alt="Инстаграм">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+<script type="module" src="../Product/basketStorage.js"></script>
+<script type="module" src="baskets.js"></script>
+</body>
+</html>

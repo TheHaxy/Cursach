@@ -1,0 +1,317 @@
+@media screen and (max-width: 1080px){
+	.product-table{
+	display: flex;
+	width: 40%;
+	margin: 30px 0;
+	flex-wrap: wrap;
+    }
+
+    .body .main .product-page .product-header{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    .product-page .product-header img{
+    	width: 100%;
+    	margin-top: 30px;
+    }
+
+    .product-page .product-header .product-face h2{
+    	font-size: 36px;
+    	margin-top: 60px;
+    }
+
+    .product-page .product-header .product-face h3{
+    	font-size: 36px;
+    }
+
+    .product-header .product-face .sale{
+    	width: 500px;
+    	font-size: 26px;
+    }
+
+    .product-header .product-face .name-size{
+    	width: 525px;
+    	height: 70px;
+    	font-size: 26px;
+    }
+
+    .product-header .product-face .product-button{
+    	padding: 30px 133px;
+    	font-size: 28px;
+    }
+
+    .body .table-border{
+    	width: 90%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    .main .table-border .table p{
+    	font-size: 30px;
+    	width: 100%;
+    }
+
+    .main .table-border .table h3{
+    	width: 100%;
+    	font-size: 30px;
+    }
+
+    .main .table-border .table li{
+    	width: 100%;
+    	font-size: 30px;
+    }
+
+
+
+
+    .body .slogan{
+    	margin-top: 250px;
+    	margin-left: -60px;
+    }
+
+	.header .logo{
+		width: 250px;
+	}
+
+	.nav-menu{
+		height: 120px;
+		display: flex;
+		align-items: center;
+	}
+
+	.nav-menu .menu-li{
+		margin-right: 50px;
+	}
+
+	.nav-menu .menu-li a{
+		font-size: 32px;
+	}
+
+	.body .footer{
+		height: 350px;
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.body .footer-content{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.body .inc{
+		margin-top: 50px;
+	}
+
+	.body .footer-icon{
+		width: 80px;
+		margin-left: 70px;
+	}
+
+	.back{
+		height: 100px;
+	}
+}
+
+
+.body{
+	margin: 0;
+	font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.header{
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.nav{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+}
+
+.nav-menu{
+	display: flex;
+}
+
+.menu-li{
+	text-transform: uppercase;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.menu-li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+
+}
+
+.menu-li a:hover{
+	color: #ccc;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.logo{
+	width: 150px;
+	-moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+.wrap{
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.back{
+	background: #1d1d1f;
+	color: #fff;
+	padding: 12px 0 40px 0;
+}
+
+.footer{
+	background: #ddd;
+	position: absolute;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.footer ul{
+	display: flex;
+}
+
+.footer-icon{
+	width: 32px;
+	margin-left: 20px;
+}
+
+.footer ul li{
+	list-style: none;
+}
+
+.footer-container{
+	display: flex;
+	align-items: center;
+}
+
+.footer-content{
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-page{
+	display: flex;
+	margin: 25px 30px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.product-header{
+	display: flex;
+}
+
+.product-header img{
+	width: 50%;
+	margin: 0 3% 0 0;
+}
+
+.product-price{
+	font-size: 30px;
+	border-bottom: 1px solid #ddd;
+	width: 150px;
+	margin-bottom: 50px;
+}
+
+.sale{
+	width: 300px;
+	background: #cde2f5;
+	padding: 10px 0 10px 25px;
+}
+
+.select-size{
+	margin-top: 50px;
+}
+
+.name-size{
+	width: 325px;
+	height: 35px;
+	border: 1px solid #000;
+	margin-top: -15px;
+	outline: none;
+}
+
+.product-button{
+	margin-top: 70px;
+	background: #018849;
+	color: #fff;
+	border: 1px solid #018849;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	font-size: 20px;
+	outline: none;
+	transition: 0.2s;
+}
+
+.product-button:hover{
+	margin-top: 70px;
+	background: #156035;
+	color: #fff;
+	border: 1px solid #156035;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	font-size: 20px;
+}
+
+.table-border{
+	display: flex;
+	width: 100%;
+	margin: 70px 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.table{
+	margin: 0 60px 60px 60px;
+}
+
+.table-border{
+	width: 80%;
+}
+
+.table li{
+	width: 300px;
+	font-size: 18px;
+	color: #333;
+}
+
+.table p{
+	width: 300px;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+
+.table h3{
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	color: #333;
+}
+
